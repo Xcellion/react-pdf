@@ -46,6 +46,8 @@ const painter = function(instance) {
     {},
   );
 
+  p.linearGradient = (...args) => {return instance.linearGradient(...args)};
+
   return p;
 };
 
